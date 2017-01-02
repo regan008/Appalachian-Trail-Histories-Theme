@@ -83,34 +83,33 @@ fire_plugin_hook('public_header');
 ?>
 		</header>
 
-		        <div id="primary-nav" class="contain-to-grid sticky">
-		<nav class="top-bar">
-		 <ul class="title-area">
+		<div class="top-bar">
+			<div class="top-bar-title">
+			 <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon dark" type="button" data-toggle></button>
+    	</span>
 		    <!-- Title Area -->
-		    <li class="name">
-		       <h1 id="site-title"><a href="#"><?php
+		       <strong id="site-title"><a href="#"><?php
 echo link_to_home_page(theme_logo());
-?></a></h1>
-		    </li>
-		    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-		    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-		  </ul>
+?></a></strong>
+		    </div>
+				<div id="responsive-menu">
+					<div class="top-bar-left">
 
-				<section class="top-bar-section">
 								        <!-- Left Nav Section -->
-									<ul class="left">
+
 
 				        <?php
-echo public_nav_main();
+echo public_nav_main()->setUlClass('menu');
 ?>
 
 
 
-										</ul>
+									
 
-
-			<ul class="right">
-				<li class="divider hide-for-small"></li>
+</div>
+<div class="top-bar-right">
+			<ul class="menu">
 				<li><?php
 echo link_to_item_search('More Search Options');
 ?></li>
@@ -122,13 +121,9 @@ echo search_form(array(
 ?></li>
 
 </ul>
- </section>
-		    </nav>
-
-
-
-		  </div>
-
+ </div>
+ </div>
+ </div>
 	<div class="row">
 
 		<div class="large-12 columns">
