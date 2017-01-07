@@ -9,16 +9,21 @@ echo head(array(
     'bodyclass' => 'two-col'
 ));
 ?>
-<div id="primary">
+<div class="row">
+  <div class="large-5 columns">
+    <img id="homepage-image" src="http://appalachiantrailhistory.org/files/original/bddd5d4ef565430f5ad7ee4967c40a3c.jpg">
+
+  </div>
+<div class="large-7 columns">
+
     <?php
 if ($homepageText = get_theme_option('Homepage Text')):
-?>
-    <p><?php
-    echo $homepageText;
-?></p>
-    <?php
-endif;
-?>
+  echo $homepageText; ?>
+<?php endif; ?>
+
+</div>
+
+</div>
 
 
     <?php
@@ -33,7 +38,7 @@ if ((get_theme_option('Display Featured Exhibit')) && function_exists('exhibit_b
 endif;
 ?>
 
-</div>
+<!-- </div> -->
 <!-- Featured Collection -->
 <div class="row">
 <div class="large-12 columns">
@@ -50,9 +55,9 @@ if (get_theme_option('Display Featured Collection')):
 ?>
 
 	</div>
-	
+
 	</div>
-	
+
 
 	</div>
 
@@ -88,7 +93,7 @@ endif;
 
 <!-- Recent Items -->
 <div id="recent-items" class="small-12 large-6 columns">
-	<!-- Recent Items -->		
+	<!-- Recent Items -->
   <div id="recent-items">
       <h2><?php
 echo __('Recently Added Items');
@@ -119,7 +124,7 @@ if (has_loop_records('items')):
 ?></p>
           <?php
         endif;
-?>						
+?>
       </li>
       <?php
     endforeach;
@@ -143,7 +148,7 @@ echo link_to_items_browse(__('View All Items'));
 
 	</div>
 	<!-- Featured Exhibit -->
-	
+
 	<div class="row">
 
 

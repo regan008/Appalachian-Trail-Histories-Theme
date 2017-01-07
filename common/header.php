@@ -82,17 +82,19 @@ fire_plugin_hook('public_body', array(
 fire_plugin_hook('public_header');
 ?>
 		</header>
-
-		<div class="top-bar">
-			<div class="top-bar-title">
-			 <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-      <button class="menu-icon dark" type="button" data-toggle></button>
-    	</span>
-		    <!-- Title Area -->
-		       <strong id="site-title"><a href="#"><?php
+<div class="row">
+			<div class="large-12 columns tinted-image">
+				<h1 id="site-title"><?php
 echo link_to_home_page(theme_logo());
-?></a></strong>
-		    </div>
+?></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns" id="ap_trail_navigation"
+		<div id="top-bar-border">
+		<div class="top-bar">
+
+
 				<div id="responsive-menu">
 					<div class="top-bar-left">
 
@@ -105,29 +107,29 @@ echo public_nav_main()->setUlClass('menu');
 
 
 
-									
+
 
 </div>
+
 <div class="top-bar-right">
 			<ul class="menu">
-				<li><?php
-echo link_to_item_search('More Search Options');
+			 <li><?php
+//echo link_to_item_search('More Search Options');
 ?></li>
 
 		  <li><?php
-echo search_form(array(
-    'show_advanced' => false
-));
+//echo search_form(array(
+    //'show_advanced' => false
+//));
 ?></li>
 
 </ul>
  </div>
  </div>
  </div>
-	<div class="row">
+ </div>
+</div>
+ </div>
+	<div class="row" id="main-body">
 
-		<div class="large-12 columns">
-
-	      <h1 id="site-title"><?php
-echo link_to_home_page(theme_logo());
-?></h1>
+		<div class="large-12 columns" id="primary">

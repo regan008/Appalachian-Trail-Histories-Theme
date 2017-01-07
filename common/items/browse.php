@@ -10,7 +10,6 @@ echo head(
 echo flash();
 echo item_search_filters();
 ?>
-
 <?php if ($total_results): ?>
     <?php echo pagination_links(); ?>
 
@@ -41,7 +40,7 @@ echo item_search_filters();
                 $browseHeadings[__('Creator')] = 'Dublin Core,Creator';
                 $browseHeadings[__('Type')] = null;
                 $browseHeadings[__('Date Added')] = 'added';
-                echo browse_sort_links($browseHeadings, array('link_tag' => 'th scope="col"', 'list_tag' => '')); 
+                echo browse_sort_links($browseHeadings, array('link_tag' => 'th scope="col"', 'list_tag' => ''));
                 ?>
             </tr>
         </thead>
@@ -123,7 +122,7 @@ echo item_search_filters();
             <input type="submit" class="small red batch-action button" name="submit-batch-delete" value="<?php echo __('Delete'); ?>">
             <?php endif; ?>
         </div>
-        
+
         <?php echo common('quick-filters',array(),'items'); ?>
     </form>
 
