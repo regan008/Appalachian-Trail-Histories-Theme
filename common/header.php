@@ -83,16 +83,20 @@ fire_plugin_hook('public_header');
 ?>
 		</header>
 <div class="row">
-			<div class="large-12 columns tinted-image">
+			<div class="large-12 medium-12 columns tinted-image">
 				<h1 id="site-title"><?php
 echo link_to_home_page(theme_logo());
 ?></h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-12 columns" id="ap_trail_navigation"
+			<div class="large-12 medium-12 columns" id="ap_trail_navigation">
+				<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
 		<div id="top-bar-border">
-		<div class="top-bar">
+		<div class="top-bar" id="example-menu">
 
 
 				<div id="responsive-menu">
@@ -102,7 +106,7 @@ echo link_to_home_page(theme_logo());
 
 
 				        <?php
-echo public_nav_main()->setUlClass('menu');
+echo public_nav_main()->setUlClass('menu data-dropdown-menu vertical medium-horizontal');
 ?>
 
 
@@ -132,4 +136,4 @@ echo public_nav_main()->setUlClass('menu');
  </div>
 	<div class="row" id="main-body">
 
-		<div class="large-12 columns" id="primary">
+		<div class="large-12 small-12 columns" id="primary">
