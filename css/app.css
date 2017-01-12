@@ -2,7 +2,7 @@
   background-color: rgba(64,79,60,.5);
 }*/
 #home, body {
-  background-image: url(../images/SpoonGraphics-Topographic-Map-6-2.png);
+  background-image: url(../images/SpoonGraphics-Topographic-Map-6-4.png);
   border-top: 5px solid #5d4e48;
 }
 #main-body {
@@ -19,9 +19,6 @@
 }
 
 
-
-
-
 #site-title a{
   color: #4b3a36 !important;
   text-transform: uppercase;
@@ -31,9 +28,11 @@
 
 p {
   color: #1b1715;
+  line-height: 1.7;
+  margin-bottom: 1.07rem;
 }
 a {
-  color: #0d370d;
+  color: #114511;
 }
 a:hover {
   color: #464b41;
@@ -47,10 +46,13 @@ h1,h2,h3,h4,h5,h6 {
 .top-bar, .top-bar ul {
   background: transparent;
 }
-
+.menu .active > a {
+  background: #114511;
+  color: #fefefe;
+}
 .top-bar, .top-bar li a {
   text-transform: uppercase;
-  color: #0d370d;
+  color: #114511;
   font-weight: bold;
   font-size: 105%;
   letter-spacing: 2px;
@@ -74,6 +76,81 @@ h3, h4, h5, h6 {
   font-weight: 300;
 }
 .pagination a, .pagination button {
-  color: #585e52 !important;
+  color: #114511 !important;
   font-weight: 400;
+}
+.pagination, a:hover{
+  color: #145314;
+}
+#pagination-next:hover {
+  background: transparent !important;
+}
+
+/*Exhibits*/
+.layout-file-text .exhibit-items.left {
+  margin-right: 5% !important;
+}
+.exhibit-page-nav > li:first-child {
+  padding-left: 5px;
+}
+.exhibit-page-nav > li {
+  list-style-type: none;
+}
+.exhibit-page-nav > li > {
+  margin: 5px 0 5px 0;
+}
+.exhibit-nav-level-1 > li{
+  margin: 5px 0 5px 0;
+}
+.exhibit-nav-level-1 {
+  padding-left: 0;
+  list-style-type: none;
+  margin-left: 0 !important;
+}
+.exhibit-nav-level-1 > li {
+    padding: 5px 5px 5px 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px ;
+}
+.exhibit-nav-level-1 > li.current {
+  font-weight: 700;
+}
+
+.exhibit-title {
+  font-family: Oswald;
+  border-bottom: solid 2px #114511;
+  text-transform: uppercase;
+}
+.exhibit-nav-level-2 > li:hover {
+  background-color: #eee;
+
+}
+.exhibit-nav-level-1 > .current.active {
+  font-weight: 500;
+
+}
+h1 > .exhibit-page {
+  padding-left: 15px;
+}
+#exhibit-pages ul {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-left: 0 !important;
+}
+#exhibit-pages ul > li {
+  padding: 5px;
+  padding-left: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 5px 0 5px 0;
+}
+
+.exhibit-nav-level-1 > li:hover {
+  background-color: #E0E1CC;
+}
+#exhibit-pages {
+  border-left: solid 1px #eee;
+}
+#exhibit-pages > h4 {
+  padding-left: 10px;
 }
