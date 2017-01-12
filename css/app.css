@@ -33,13 +33,13 @@ p {
   color: #1b1715;
 }
 a {
-  color: #4f5449;
+  color: #0d370d;
 }
 a:hover {
-  color: #9a9e97;
+  color: #464b41;
 }
 h2 a {
-  color: #585e52
+  color: #0d370d;
 }
 h1,h2,h3,h4,h5,h6 {
   color: #7E625B;
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .top-bar, .top-bar li a {
   text-transform: uppercase;
-  color: #585e52;
+  color: #0d370d;
   font-weight: bold;
   font-size: 105%;
   letter-spacing: 2px;
@@ -58,8 +58,8 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
 }
 .top-bar li a:hover {
-  border-bottom: 3px solid #464b41;
-  color: #464b41;
+  border-bottom: 3px solid #145314;
+  color: #145314;
 }
 .top-bar {
   padding-left: 0;
