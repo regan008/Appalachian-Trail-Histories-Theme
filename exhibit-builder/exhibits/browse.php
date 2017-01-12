@@ -21,6 +21,7 @@ echo head(array(
         ),
     )); ?>
 </nav>
+<hr>
 
 <?php echo $pagination_links = pagination_links(); ?>
 
@@ -54,9 +55,11 @@ echo head(array(
         <?php if ($exhibitTags = tag_string('exhibit', 'exhibits')): ?>
         <p class="tags"><?php echo $exhibitTags; ?></p>
         <?php endif; ?>
+        <hr>
       </div>
     </div>
     </div>
+
     </div>
 <?php endforeach; ?>
 

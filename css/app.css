@@ -8,6 +8,11 @@
 #main-body {
   background: #8E9089;
 }
+#footer {
+  /*background: #fbfcf9;*/
+  margin-top: 25px;
+  padding: 0px 50px 35px 50px;
+}
 #primary {
   background: #fbfcf9;
   padding: 35px 50px 35px 50px;
@@ -50,6 +55,9 @@ h1,h2,h3,h4,h5,h6 {
   background: #114511;
   color: #fefefe;
 }
+.title-bar {
+  background: #114511;
+}
 .top-bar, .top-bar li a {
   text-transform: uppercase;
   color: #114511;
@@ -85,7 +93,12 @@ h3, h4, h5, h6 {
 #pagination-next:hover {
   background: transparent !important;
 }
-
+.paginationrow {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
 /*Exhibits*/
 .layout-file-text .exhibit-items.left {
   margin-right: 5% !important;
@@ -153,4 +166,19 @@ h1 > .exhibit-page {
 }
 #exhibit-pages > h4 {
   padding-left: 10px;
+}
+.exhibit.record > a > img {
+  float: left;
+  margin-right: 20px;
+}
+#secondary-nav {
+  margin: 25px 0 25px 0;
+}
+
+footer {
+  padding-left: 0;
+}
+figcaption > small > hr {
+  margin-bottom: 5px;
+  margin-top: 10px;
 }

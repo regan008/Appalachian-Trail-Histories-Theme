@@ -5,13 +5,13 @@
 
 <div class="row">
 
-<div class="large-12 columns">
+<div class="large-12 columns paginationrow">
 
       <ul class="pagination" role="navigation" aria-label="Pagination">
-        <div class="medium-2 columns" >
+        <div class="medium-2 columns paginationrow" >
           <li style="float: left;" class="pagination-previous"><?php echo link_to_previous_item_show(); ?></li>
         </div>
-          <div class="medium-2 columns" >
+          <div class="medium-2 columns paginationrow">
           <li style="float:right;" id="pagination-next"><?php echo link_to_next_item_show(); ?></li>
         </div>
       </ul>
