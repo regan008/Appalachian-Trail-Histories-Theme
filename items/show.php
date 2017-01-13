@@ -167,14 +167,16 @@
         </div>
         <!-- The following returns all of the files associated with an item. -->
         <div id="itemfiles" class="large-6 columns">
-            <!-- <h3><?php echo __('Files'); ?></h3> -->
-
-
+            <!-- <h3><?php //echo __('Files'); ?></h3> -->
+            <?php if ($text = metadata('item', array('Item Type Metadata', 'Text'))): ?>
+                <p><?php echo $text; ?></p>
+              </div>
+            <?php else: ?>
             <div class="element-text"><?php echo files_for_item(
                 array('imageSize'=>'fullsize','linkToFile'=>true,'linkToMetadata'=>false),//options
                 array('class'=>'file-image'),
                 null);
-        ?></div>
+        endif; ?></div>
         </div>
     </div>
     <div class="row">
