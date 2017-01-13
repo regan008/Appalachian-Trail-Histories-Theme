@@ -196,3 +196,10 @@ color: #58443f;
 h4,h5 {
   color: #58443f;
 }
+.pagination .current {
+  background: #114511 !important;
+  color: #fefefe;
+}
+h1 small {
+  color: #7E625B;
+}
