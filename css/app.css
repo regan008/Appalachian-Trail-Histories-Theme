@@ -93,11 +93,19 @@ h3, h4, h5, h6 {
 #pagination-next:hover {
   background: transparent !important;
 }
+.paginationrow-bottom {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+}
 .paginationrow {
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
+
 }
 /*Exhibits*/
 .layout-file-text .exhibit-items.left {
@@ -181,4 +189,10 @@ footer {
 figcaption > small > hr {
   margin-bottom: 5px;
   margin-top: 10px;
+}
+h4 > i{
+color: #58443f;
+}
+h4,h5 {
+  color: #58443f;
 }

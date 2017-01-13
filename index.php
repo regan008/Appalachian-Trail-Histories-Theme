@@ -10,7 +10,15 @@ echo head(array(
 ));
 ?>
 <div class="row">
+  <div class="large-4 medium-4 columns">
+    <span class="hide-for-small-only">
+    <figure>
 
+    <img id="homepage-image" src="http://appalachiantrailhistory.org/files/original/bddd5d4ef565430f5ad7ee4967c40a3c.jpg">
+    <figcaption><small><hr><a href="http://appalachiantrailhistory.org/items/show/54">Benton MacKaye's proposed map of the Appalachian Trail</a>, March, 1925. (Rauner Special Collections Library, Dartmouth College) All Rights Reserved.</small></figcaption>
+    </figure>
+    </span>
+  </div>
 <div class="large-8 medium-8 small-12 columns">
 
     <?php
@@ -19,15 +27,7 @@ if ($homepageText = get_theme_option('Homepage Text')):
 <?php endif; ?>
 
 </div>
-<div class="large-4 medium-4 columns">
-  <!-- <span class="hide-for-small-only"> -->
-  <figure>
 
-  <img id="homepage-image" src="http://appalachiantrailhistory.org/files/original/bddd5d4ef565430f5ad7ee4967c40a3c.jpg">
-  <figcaption><small><hr>Lorem ipsum dolor sit amet, <i>consectetur adipiscing elit.</i> Vestibulum convallis, nibh iaculis elementum posuere, ligula lorem auctor leo, a aliquam turpis purus eget risus. </small></figcaption>
-  </figure>
-<!-- </span> -->
-</div>
 
 </div>
 
