@@ -42,11 +42,9 @@ echo head(array(
 
         <?php endif; ?>
 
-        
 
-          <?php if ($exhibitImage = record_image($exhibit, 'fullsize')): ?>
-          <?php echo exhibit_builder_link_to_exhibit($exhibit, $exhibitImage, array('class' => 'image')); ?>
-      <?php endif; ?>
+
+        
 
 
         </div>
