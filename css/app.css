@@ -40,7 +40,7 @@ a {
   color: #114511;
 }
 a:hover, a:active, a:visited {
-  color: #464b41;
+  color: #464b41 !important;
 }
 h2 a {
   color: #0d370d;
