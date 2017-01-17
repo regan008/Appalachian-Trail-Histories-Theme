@@ -36,10 +36,10 @@ p {
   line-height: 1.7;
   margin-bottom: 1.07rem;
 }
-a {
+a, a:active, a:visited {
   color: #114511;
 }
-a:hover, a:active, a:visited {
+a:hover {
   color: #464b41 !important;
 }
 h2 a {
