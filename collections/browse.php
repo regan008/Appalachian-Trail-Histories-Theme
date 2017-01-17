@@ -33,8 +33,8 @@ echo head(array(
                   </div>
           </div>
           <div class="large-3 columns">
-            <?php if ($collectionImage = record_image('collection')): ?>
-                <?php echo link_to_collection($collectionImage, array('class' => 'image')); ?>
+            <?php if ($collectionImage = record_image('collection', 'square_thumbnail')): ?>
+                <?php echo link_to_collection($collection, $collectionImage, array('class' => 'image')); ?>
             <?php endif; ?>
           </div>
         </div>
