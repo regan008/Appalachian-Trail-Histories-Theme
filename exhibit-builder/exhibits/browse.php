@@ -42,7 +42,7 @@ echo head(array(
 
         <?php endif; ?>
 
-        <?php if ($exhibitImage = record_image($exhibit)): ?>
+        <?php if ($exhibitImage = record_image($exhibit, 'square_thumbnail')): ?>
 
             <div class="large-3 columns">
                 <?php echo exhibit_builder_link_to_exhibit($exhibit, $exhibitImage, array('class' => 'image')); ?>
