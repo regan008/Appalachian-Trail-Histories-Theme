@@ -58,7 +58,7 @@ echo head(array(
             <div class="large-2 columns">
             <?php if (metadata($item, 'has thumbnail')): ?>
                 <div class="item-img">
-                    <?php echo link_to_item(item_image('square_thumbnail', array(), 0, $item), array('class' => 'item-thumbnail'), 'show', $item); ?>
+                    
                 </div>
             <?php endif; ?>
             </div>
