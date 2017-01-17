@@ -203,3 +203,13 @@ h4,h5 {
 h1 small {
   color: #7E625B;
 }
+
+#geolocation {
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+}
+#geolocation > h2 {
+  font-size: 1.5625rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -124,6 +124,7 @@
                 </div>
               </div>
             </div>
+
             <!-- The following prints a list of all tags associated with the item -->
             <div class="row"><hr />
                 <div class="large-12 columns">
@@ -151,6 +152,7 @@
                     </div>
             </div>
 
+
              <div class="row"><hr />
                 <div class="large-12 columns">
 
@@ -172,7 +174,7 @@
                 <p><?php echo $text; ?></p>
               </div>
             <?php else: ?>
-            <div class="element-text"><?php echo files_for_item(
+            <div class="element-text" style="float:right;"><?php echo files_for_item(
                 array('imageSize'=>'fullsize','linkToFile'=>true,'linkToMetadata'=>false),//options
                 array('class'=>'file-image'),
                 null);

@@ -44,3 +44,4 @@
 </div>
 
 </div> <!-- close large-12 -->
+<?php echo foot(); ?>
