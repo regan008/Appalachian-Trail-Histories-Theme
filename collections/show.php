@@ -15,12 +15,17 @@
         </div>
     </div><hr />
     <div class="row">
-        <div id="collection-description" class="large-8 columns">
+            <div id="collection-description" class="large-8 columns">
             <div class="element">
             <h4><i class="fa fa-thumb-tack"></i> Description:</h4>
-            <div class="lead"><?php echo text_to_paragraphs(metadata('collection', array('Dublin Core', 'Description'))); ?></div>
+            <?php if ($collection_description = metadata('collection', array('Dublin Core', 'Description'))): ?>
+            <div class="lead"><?php echo text_to_paragraphs($collection_description); ?></div>
+          <?php else: ?>
+            <div class="lead">No description recorded.</div>
+            <?php endif; ?>
           </div>
         </div>
+
     </div>
     <div class="row">
       <?php if ($collectionCreator = metadata($collection,array('Dublin Core','Creator'))): ?>
