@@ -39,7 +39,7 @@ p {
 a {
   color: #114511;
 }
-a:hover {
+a:hover, a:active, a:visited {
   color: #464b41;
 }
 h2 a {
@@ -196,6 +196,7 @@ color: #58443f;
 h4,h5 {
   color: #58443f;
 }
+
 .pagination .current {
   background: #114511 !important;
   color: #fefefe;
