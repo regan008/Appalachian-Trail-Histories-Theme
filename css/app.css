@@ -24,6 +24,8 @@
 }
 blockquote {
   color: #1b1715;
+  padding: 0 25px;
+  display: flex;
 }
 
 #site-title a{
