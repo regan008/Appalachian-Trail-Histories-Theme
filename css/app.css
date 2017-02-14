@@ -22,7 +22,9 @@
   height: auto;
 
 }
-
+blockquote {
+  color: #1b1715;
+}
 
 #site-title a{
   color: #4b3a36 !important;
