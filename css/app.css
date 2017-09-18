@@ -218,6 +218,3 @@ h1 small {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.button, .button:hover, .button:focus > a, a:hover {
-  color: yellow;
-}

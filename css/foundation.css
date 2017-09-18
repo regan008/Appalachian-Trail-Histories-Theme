@@ -1582,8 +1582,8 @@ kbd {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #114511;
-    color: #FF0 !important; }
+    background-color: none;
+    color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
   .button.small {
