@@ -44,3 +44,8 @@ echo head(array(
 
   </div>
 </div>
+
+<div id="pagination-bottom" class="pagination pagination-centered">
+    <?php echo pagination_links(); ?>
+</div>
+<?php echo foot(); ?>

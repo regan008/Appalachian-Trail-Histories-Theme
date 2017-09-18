@@ -84,16 +84,16 @@
             <div class="row"><hr />
 
                 <!-- Identifier -->
-                <div class="large-4 columns">
+                <!-- <div class="large-4 columns">
                     <h4><i class="fa fa-bookmark"></i><?php echo __(' Identifier'); ?></h4>
-                    <?php if ($itemCreator = metadata($item,array('Dublin Core','Identifier'))): ?>
-                        <?php echo $itemCreator; ?>
-                    <?php else: ?>
+                    <?php //if ($itemCreator = metadata($item,array('Dublin Core','Identifier'))): ?>
+                        <?php //echo $itemCreator; ?>
+                    <?php// else: ?>
                         None recorded.
-                    <?php endif; ?>
-                </div>
+                    <?php //endif; ?>
+                </div> -->
                 <!-- Contributor -->
-                <div class="large-4 columns">
+                <div class="large-6 columns">
                     <h4><i class="fa fa-university"></i><?php echo __(' Contributor'); ?></h4>
                     <?php if ($itemCreator = metadata($item,array('Dublin Core','Contributor'))): ?>
                         <?php echo $itemCreator; ?>
@@ -101,7 +101,7 @@
                         None recorded.
                     <?php endif; ?>
                 </div>
-                <div class="large-4 columns">
+                <div class="large-6 columns">
                   <h4><i class="fa fa-picture-o"></i><?php echo __(' Format'); ?></h4>
                   <?php if ($format = metadata($item, array('Dublin Core', 'Format'))): ?>
                     <?php echo $format; ?>
