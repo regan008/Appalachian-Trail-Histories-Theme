@@ -218,11 +218,3 @@ h1 small {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-button {
-  background-color: none !important;
-  padding: 0.55em .5em !important;
-}
-button:hover {
-  background-color: #114511 !important;
-  color: #fefefe !important;
-}
