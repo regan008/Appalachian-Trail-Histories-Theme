@@ -22,7 +22,6 @@ echo head(array(
 
 
     <div class="large-12 columns">
-        <?php //echo public_nav_items()->setUlClass('nav nav-pills'); ?>
         <?php
             asort($tags);
             echo tag_cloud($tags, url('items/browse'));
