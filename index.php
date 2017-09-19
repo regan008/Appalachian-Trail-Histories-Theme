@@ -14,7 +14,7 @@ echo head(array(
     <span class="hide-for-small-only">
     <figure>
 
-    <img id="homepage-image" src="http://appalachiantrailhistory.org/files/original/bddd5d4ef565430f5ad7ee4967c40a3c.jpg">
+    <a href="http://appalachiantrailhistory.org/items/show/54"><img id="homepage-image" src="http://appalachiantrailhistory.org/files/original/bddd5d4ef565430f5ad7ee4967c40a3c.jpg"></a>
     <figcaption><small><hr><a href="http://appalachiantrailhistory.org/items/show/54">Benton MacKaye's proposed map of the Appalachian Trail</a>, March, 1925. (Rauner Special Collections Library, Dartmouth College) All Rights Reserved.</small></figcaption>
     </figure>
     </span>
