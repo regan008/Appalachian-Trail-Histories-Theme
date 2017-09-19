@@ -40,8 +40,8 @@ p {
   line-height: 1.7;
   margin-bottom: 1.07rem;
 }
-a, a:active, a:visited {
-  color: #406a40;
+a, a:active, a:visited, a:link {
+  color: ##477647;
 }
 a:hover {
   color: #464b41 !important;
