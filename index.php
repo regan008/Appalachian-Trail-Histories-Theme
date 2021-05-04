@@ -14,8 +14,8 @@ echo head(array(
     <span class="hide-for-small-only">
     <figure>
 
-    <a href="http://appalachiantrailhistory.org/items/show/54"><img id="homepage-image" src="http://appalachiantrailhistory.org/files/original/bddd5d4ef565430f5ad7ee4967c40a3c.jpg"></a>
-    <figcaption><small><hr><a href="http://appalachiantrailhistory.org/items/show/54">Benton MacKaye's proposed map of the Appalachian Trail</a>, March, 1925. (Rauner Special Collections Library, Dartmouth College) All Rights Reserved.</small></figcaption>
+    <a href="https://athstudents.rrchnm.org/admin/items/show/452"><img id="homepage-image" src="https://athstudents.rrchnm.org/files/original/b9611e006b17473f5a5fbcda5d699226.jpeg"></a>
+    <figcaption><small><hr><a href="https://athstudents.rrchnm.org/admin/items/show/452">Taking Shelter in a Chestnut Tree</a>, March, 1932. (Great Smoky Mountains Regional Project, The University of Tennessee Libraries, Knoxville Tennessee) All Rights Reserved.</small></figcaption>
     </figure>
     </span>
   </div>
